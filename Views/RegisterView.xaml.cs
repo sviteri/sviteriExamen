@@ -74,6 +74,5 @@ public partial class RegisterView : ContentPage
     private void btnLogout_Clicked(object sender, EventArgs e)
     {
         App.Current.MainPage = new NavigationPage(new LoginView());
-        this.
     }
 }
